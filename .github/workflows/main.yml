@@ -28,7 +28,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: ghcr.io/blockchain-department/deadsman-triger-spoliya # list of Docker images to use as base name for tags
+          images: ghcr.io/usmankhan7867/AWS-Test # list of Docker images to use as base name for tags
           tags: |
             type=ref,event=branch
             type=sha
